@@ -41,15 +41,9 @@ fileInput.addEventListener('change', () => {
     Array.from(fileInput.files).forEach(file => {
       if (file.type.startsWith('image/')) {
         const reader = new FileReader();
-<<<<<<< HEAD
-        
-        reader.onload = function (e) {
-          
-=======
 
         reader.onload = function (e) {
 
->>>>>>> e4259bc (again pushing)
           const img = document.createElement('img');
           img.src = e.target.result;
           img.classList.add('preview-image');
@@ -70,43 +64,6 @@ fileInput.addEventListener('change', () => {
 ////////////////////////////////share and  like buttons////////////////////////////////
 const liked = document.getElementById('like-icon');
 liked.addEventListener('click', () => {
-<<<<<<< HEAD
-    liked.classList.toggle('fa-heart');
-    liked.classList.toggle('fa-heart-crack');
- });
-
-
- const shareButton = document.getElementById('share-btn'); 
- shareButton.addEventListener('click', () => {
-   if (navigator.share) {
-     navigator.share({
-       title: 'Example Page',
-       text: 'Check out this amazing page!',
-       url: window.location.href
-     })
-     .then(() => console.log('Sharing successful'))
-     .catch((error) => console.log('Error sharing', error));
-   } else {
-     alert('Your browser does not support the Web Share API');
-   }
- });
- /////////////////////////dropdowns//////////////////////////
- $(document).ready(function () {
-
-  $(document).on("shown.bs.dropdown", ".dropdown", function () {
-
-      const button = $(this).find('[data-bs-toggle="dropdown"]');
-      const buttonPos = button.offset();
-      const buttonWidth = button.outerWidth();
-      const buttonHeight = button.outerHeight();
-
-      $(this).find(".dropdown-menu.custom-menu").appendTo("body").css({
-          position: "absolute",
-          top: buttonPos.top + buttonHeight,
-          right: buttonPos.left,
-          width: buttonWidth,
-      });
-=======
   liked.classList.toggle('fa-heart');
   liked.classList.toggle('fa-heart-crack');
 });
@@ -142,71 +99,18 @@ $(document).ready(function () {
       right: buttonPos.left,
       width: buttonWidth,
     });
->>>>>>> e4259bc (again pushing)
   });
 
 });
 
 ////////////////////////Images upload system in the document center////////////////////////////////
 
-<<<<<<< HEAD
-(function() {
-=======
 (function () {
->>>>>>> e4259bc (again pushing)
   const uploadButton = document.getElementById('uploadButton');
   const fileContainer = document.getElementById('fileContainer'); // Renamed from fileRow
 
   // Add event listener to the "Upload Document" button
   uploadButton.addEventListener('click', () => {
-<<<<<<< HEAD
-      // Create a new input element dynamically each time the button is clicked
-      const fileInput = document.createElement('input');
-      fileInput.type = 'file';
-      fileInput.classList.add('d-none'); // Hide the file input initially
-
-      // Append file input to the body to make sure it's part of the document
-      document.body.appendChild(fileInput);
-
-      // Trigger the file input when the button is clicked
-      fileInput.click();
-
-      // Handle file selection
-      fileInput.addEventListener('change', () => {
-          if (fileInput.files.length > 0) {
-              Array.from(fileInput.files).forEach(file => {
-                  // Create a new div to hold the preview (col-3 for each file)
-                  const fileDiv = document.createElement('div');
-                  fileDiv.classList.add('col-4', 'mb-4'); // Make sure the files are spaced
-
-                  // Check if the file is an image
-                  if (file.type.startsWith('image/')) {
-                      const reader = new FileReader();
-                      reader.onload = function (e) {
-                          // Create an image element for the preview
-                          const img = document.createElement('img');
-                          img.src = e.target.result;
-                          img.classList.add('img-fluid', 'preview-img');
-                          fileDiv.appendChild(img);
-                          fileContainer.appendChild(fileDiv); // Append to fileContainer
-                      };
-                      reader.readAsDataURL(file);
-                  } else {
-                      // Handle non-image files (e.g., document files)
-                      const p = document.createElement('p');
-                      p.textContent = file.name;
-                      fileDiv.appendChild(p);
-                      fileContainer.appendChild(fileDiv); // Append to fileContainer
-                  }
-              });
-          }
-      });
-  });
-})();
-
-// ------------------------------File upload template2----------------------------------
-// Select the elements
-=======
     // Create a new input element dynamically each time the button is clicked
     const fileInput = document.createElement('input');
     fileInput.type = 'file';
@@ -266,5 +170,4 @@ selectAllCheckbox.addEventListener("change", () => {
 
 // -------------------------------user profile checkbox--------------------------------
 
->>>>>>> e4259bc (again pushing)
 

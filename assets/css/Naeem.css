@@ -4,13 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
-<<<<<<< HEAD
-
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
->>>>>>> e4259bc (again pushing)
 * {
 
     margin: 0;
@@ -41,30 +36,18 @@ p {
     margin: 0 !important;
     padding: 0 !important;
 }
-<<<<<<< HEAD
-ul{
-padding-left:12px !important;
-padding-right: 12px !important;
-=======
 
 ul {
     padding-left: 12px !important;
     padding-right: 12px !important;
->>>>>>> e4259bc (again pushing)
 }
 
 
 /* ------------------------------Fonts------------------------------------ */
-<<<<<<< HEAD
-.fs_12{
-    font-size: 12px;
-}
-=======
 .fs_12 {
     font-size: 12px;
 }
 
->>>>>>> e4259bc (again pushing)
 .fs_14 {
     font-size: 14px;
 }
@@ -72,14 +55,9 @@ ul {
 .fs_16 {
     font-size: 16px
 }
-<<<<<<< HEAD
-.fs_12{
-color:#ffffff
-=======
 
 .fs_12 {
     color: #ffffff
->>>>>>> e4259bc (again pushing)
 }
 
 .fs_18 {
@@ -102,12 +80,9 @@ color:#ffffff
     font-size: 24px;
 }
 
-<<<<<<< HEAD
-=======
 .fs_32 {
     font-size: 32px;
 }
->>>>>>> e4259bc (again pushing)
 .fs_36 {
     font-size: 36px;
 }
@@ -203,11 +178,6 @@ color:#ffffff
 .Inter_family {
     font-family: Inter;
 }
-<<<<<<< HEAD
-.Nunito_family{
-    font-family: Nunito;
-}
-=======
 
 .Nunito_family {
     font-family: Nunito;
@@ -218,19 +188,15 @@ color:#ffffff
 .mulish-family{
     font-family: Mulish;
 }
->>>>>>> e4259bc (again pushing)
 
 /* ----------------------------Font color---------------------------- */
 
 .main_color {
     color: #3684A4;
 }
-<<<<<<< HEAD
-=======
 .light-main-bg{
     background-color:#E4F1F6 ;
 }
->>>>>>> e4259bc (again pushing)
 
 .main_bg {
     background-color: #3684A4;
@@ -257,27 +223,6 @@ color:#ffffff
 }
 
 .tertiary-gray {
-<<<<<<< HEAD
-    color: #475467  !important;
-}
-.light_gray{
-    color: #858585;
-}
-.dark_gray{
-    color:#6F7784 !important;
-}
-.tertiary-black {
-    color: #344054;
-}
-.primary-black{
-    color:#101828 !important;
-}
-.light-main-bg{
-    background-color:#3684A414 !important;
-}
-.button_bg{
-    background-color:#EBF3F6 !important;
-=======
     color: #475467 !important;
 }
 
@@ -306,7 +251,6 @@ color:#ffffff
 }
 .light-green{
     color:#536C73;
->>>>>>> e4259bc (again pushing)
 }
 
 
@@ -322,23 +266,6 @@ color:#ffffff
 .p_40 {
     padding: 40px;
 }
-<<<<<<< HEAD
-.p_16{
-    padding: 16px;
-}
-/* ----------------------------BOrder Radius---------------------------- */
-.mt_32{
-    margin-top: 32px;
-}
-.border{
-    border:1px solid #D0D5DD !important;
-}
-/* ----------------------------BOrder Radius---------------------------- */
-.border-r-12{
-    border-radius: 12px !important;
-}
-.border-r-8{
-=======
 
 .p_16 {
     padding: 16px;
@@ -363,7 +290,6 @@ color:#ffffff
 }
 
 .border-r-8 {
->>>>>>> e4259bc (again pushing)
     border-radius: 8px !important;
 }
 
@@ -436,14 +362,11 @@ color:#ffffff
     background-color: #f8f9fa;
 }
 
-<<<<<<< HEAD
-=======
 .custom-table td,
 th {
     white-space: nowrap;
 }
 
->>>>>>> e4259bc (again pushing)
 .custom-table {
     border: 1px solid #EAECF0;
     border-radius: 20px !important;
@@ -512,14 +435,9 @@ th {
     color: #3684A4 !important;
     cursor: pointer
 }
-<<<<<<< HEAD
-.height_305{
-    min-height:305px !important;
-=======
 
 .height_305 {
     min-height: 305px !important;
->>>>>>> e4259bc (again pushing)
 }
 
 
@@ -584,11 +502,7 @@ th {
 
 #salesChart {
     width: 100% !important;
-<<<<<<< HEAD
-    height: 300px !important;
-=======
     height: 350px !important;
->>>>>>> e4259bc (again pushing)
     color: rgba(0, 255, 255, 0.021);
 }
 
@@ -789,41 +703,16 @@ span.flatpickr-weekday {
     border: 1px solid #3684A4;
     width: fit-content;
 }
-<<<<<<< HEAD
-.formation-header{
-    border-radius:12px;
-}
-=======
 
 .formation-header {
     border-radius: 12px;
 }
 
->>>>>>> e4259bc (again pushing)
 /* .formation-center-table{
     border-collapse: separate;
     border-radius:10px;
     overflow: hidden;
 } */
-<<<<<<< HEAD
-.formation-center-table thead{
-    background-color:#F9FAFB;
-    border-radius:100px;
-}
-.formation-center-table tr{
-border:1px solid #EAECF0
-}
-.form-check-input:focus{
-    outline: none!important;
-    box-shadow:none !important;
-}
-.form-check-input{
-    background-color:#3684A4 !important;
-    border:1px solid #3684A4 !important;
-    height: 20px !important;
-    width: 36px !important;
-}
-=======
 .formation-center-table thead {
     background-color: #F9FAFB;
     border-radius: 100px;
@@ -845,40 +734,10 @@ border:1px solid #EAECF0
     width: 36px !important;
 }
 
->>>>>>> e4259bc (again pushing)
 /* .compliance-card{
     max-width: 348px;
     margin-top: 24px;
 } */
-<<<<<<< HEAD
-table{
-    overflow: auto;
-}
-table td,th{
-    white-space: nowrap;
-}
-.compliance-table{
-    border:1px solid #EAECF0;
-}
-.compliance-table th{
-    background-color:#F9FAFB;
-}
-.compliance-table tr{
-    border:1px solid #EAECF0;
-}
-table td,th{
-    white-space: nowrap;
-}
-.finance-banking-last{
-    max-width: 705px;
-    width: 100%;
-}
-.sub-finance-table thead{
-    background-color:#F9FAFB;
-}
-
-.sub-finance-table th{
-=======
 table {
     overflow: auto;
 }
@@ -915,7 +774,6 @@ th {
 }
 
 .sub-finance-table th {
->>>>>>> e4259bc (again pushing)
 
     font-family: Inter;
     font-size: 12px;
@@ -924,14 +782,6 @@ th {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-<<<<<<< HEAD
-    color:#475467;
-}
-.sub-finance-table tr{
-    border:1px solid #EAECF0;
-    padding: 26px 24px;
-}
-=======
     color: #475467;
 }
 
@@ -940,7 +790,6 @@ th {
     padding: 26px 24px;
 }
 
->>>>>>> e4259bc (again pushing)
 /* ---------select input----------- */
 .custom-select-container {
     position: relative;
@@ -950,15 +799,6 @@ th {
 
 .custom-select {
     width: 100%;
-<<<<<<< HEAD
-    padding: 10px 40px 10px 10px; 
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    appearance: none; 
-    -moz-appearance: none; 
-    -webkit-appearance: none; 
-=======
     padding: 10px 40px 10px 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -966,21 +806,14 @@ th {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
->>>>>>> e4259bc (again pushing)
 }
 
 .custom-chevron {
     position: absolute;
     top: 70%;
-<<<<<<< HEAD
-    right: 10px; 
-    transform: translateY(-50%);
-    pointer-events: none; 
-=======
     right: 10px;
     transform: translateY(-50%);
     pointer-events: none;
->>>>>>> e4259bc (again pushing)
     font-size: 16px;
     color: #333;
 }
@@ -995,39 +828,16 @@ th {
     outline: none;
     box-shadow: none;
 }
-<<<<<<< HEAD
-.custom-text-area{
-    resize:none;
-}
-.custom-text-area:focus{
-=======
 
 .custom-text-area {
     resize: none;
 }
 
 .custom-text-area:focus {
->>>>>>> e4259bc (again pushing)
     border-color: none !important;
     outline: none !important;
     box-shadow: none !important;
 }
-<<<<<<< HEAD
-.custom-text-area::placeholder{
-    color: #344054 !important;
-    font-size: 16px;
-    font-weight:400;
-    font-family: Plus Jakarta Sans;
-}
-.custom-select::placeholder{
-    color: #344054 !important;
-}
-.custom-text-area:active{
-    border-color: none !important;
-    outline: none!important;
-    box-shadow: none!important;
-}
-=======
 
 .custom-text-area::placeholder {
     color: #344054 !important;
@@ -1046,27 +856,18 @@ th {
     box-shadow: none !important;
 }
 
->>>>>>> e4259bc (again pushing)
 /* ----------select input end---------- */
 
 
 
 /* -----------check switch ------------ */
 .form-check-input {
-<<<<<<< HEAD
-    -webkit-appearance: none; 
-=======
     -webkit-appearance: none;
->>>>>>> e4259bc (again pushing)
     appearance: none;
     width: 48px;
     height: 24px;
     background-color: #ccc;
-<<<<<<< HEAD
-    border-radius: 12px; 
-=======
     border-radius: 12px;
->>>>>>> e4259bc (again pushing)
     position: relative;
     cursor: pointer;
     outline: none;
@@ -1080,40 +881,13 @@ th {
     left: 2px;
     width: 15px;
     height: 15px;
-<<<<<<< HEAD
-    background-color: white; 
-=======
     background-color: white;
->>>>>>> e4259bc (again pushing)
     border-radius: 50%;
     transition: transform 0.2s ease-in-out;
 }
 
 
 .form-check-input:checked {
-<<<<<<< HEAD
-    background-color: #0d6efd; 
-}
-
-.form-check-input:checked::before {
-    transform: translateX(15px); 
-}
-
-/* -----------check switch end ------------ */
-input:focus{
-    border:1px solid #D0D5DD !important;
-outline: none !important;
-box-shadow:none !important;
-}
-.benefits-forms-inputs{
-    padding-left:30px !important;
-}
-.assurance-benefits-form input{
-    background-color:#FCFCFD;
-}
-/* -----------CRM Tabs ------------ */
-.crm-tabs .nav-link{
-=======
     background-color: #0d6efd;
 }
 
@@ -1142,7 +916,6 @@ input{
 
 /* -----------CRM Tabs ------------ */
 .crm-tabs .nav-link {
->>>>>>> e4259bc (again pushing)
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;
@@ -1150,19 +923,6 @@ input{
     text-align: left;
     color: #667085;
 }
-<<<<<<< HEAD
-.crm-tabs .nav-link:hover{
-    border:none !important;
-    color:#667085;
-}
-.crm-tabs .nav-link.active{
-    border:none!important;
-    color: #3684A4 !important;
-    position: relative;
-}
-.crm-tabs .nav-link.active{
-    border-bottom:2px solid #3684A4 !important;
-=======
 
 .crm-tabs .nav-link:hover {
     border: none !important;
@@ -1177,7 +937,6 @@ input{
 
 .crm-tabs .nav-link.active {
     border-bottom: 2px solid #3684A4 !important;
->>>>>>> e4259bc (again pushing)
     /* content:'';
     position: absolute;
     top: 36px;
@@ -1190,31 +949,6 @@ input{
     border-radius: 14px;
     z-index: 1; */
 }
-<<<<<<< HEAD
-.crm-table-1 th, .name{
-background-color:#F9FAFB;
-font-family: Inter;
-font-size: 12px;
-font-weight: 500;
-line-height: 18px;
-text-align: left;
-color:#475467;
-}
-.formation-centers{
-    z-index: -1;
-}
-.table-drop-down:hover{
-    background-color:#3684A4 !important;
-    color:white !important;
-}
-
-thead tr th:first-child{
-    border-radius:12px 0px 0px  0px !important;
-}
-thead tr th:last-child{
-    border-radius:0px 12px 0px  0px !important;
-}
-=======
 
 .crm-table-1 th,
 .name {
@@ -1257,7 +991,6 @@ thead tr th:last-child {
 }
 
 
->>>>>>> e4259bc (again pushing)
 /* ---------------------------------cards adding dynamically----------------------------------- */
 .file-card {
     border: 1px solid #D0D5DD;
@@ -1267,16 +1000,10 @@ thead tr th:last-child {
     transition: transform 0.3s ease-in-out;
     height: 305px;
     display: flex;
-<<<<<<< HEAD
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
-=======
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
->>>>>>> e4259bc (again pushing)
 }
 
 .file-card:hover {
@@ -1284,11 +1011,7 @@ thead tr th:last-child {
 }
 
 .file-card img {
-<<<<<<< HEAD
-    width: 64px;
-=======
     width: 70%;
->>>>>>> e4259bc (again pushing)
     height: 64px;
     margin-bottom: 8px;
 }
@@ -1301,18 +1024,11 @@ thead tr th:last-child {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-<<<<<<< HEAD
-    color:#070708;
-
-    
-}
-=======
     color: #070708;
 
 
 }
 
->>>>>>> e4259bc (again pushing)
 /* --------------------------------File Input Customized--------------------------------- */
 .file-input-container {
     border: 1px solid #d1d5db;
@@ -1324,45 +1040,6 @@ thead tr th:last-child {
     background-color: #f9fafb;
     cursor: pointer;
     max-height: 126px;
-<<<<<<< HEAD
-    margin-top:24px;
-  }
-  
-  .file-input {
-    display: none;
-  }
-  
-  .file-input-label {
-    display: block;
-    cursor: pointer;
-  }
-  
-  .upload-icon {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto 8px;
-  }
-  
-  .upload-icon img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
-  .file-input-label p {
-    color: #6b7280;
-    font-size: 14px;
-  }
-  
-  .file-input-label small {
-    color: #9ca3af;
-  }
-  
-
-
-
-
-=======
     margin-top: 24px;
 }
 
@@ -1461,7 +1138,6 @@ color:#344054;
     background-color: rgb(210, 51, 51) !important;
     transition: background-color 0.3s, border-color 0.3s;
 } */
->>>>>>> e4259bc (again pushing)
 
 
 
@@ -1486,12 +1162,8 @@ color:#344054;
     .date-picker-main {
         width: 100%;
     }
-<<<<<<< HEAD
-    .laptop-img{
-=======
 
     .laptop-img {
->>>>>>> e4259bc (again pushing)
         width: 100%;
         height: auto;
     }
