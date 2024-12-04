@@ -1,3 +1,14 @@
+const navbar = document.getElementById('dashboard-2')
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    navbar.classList.add('navbar-scroll')
+  }
+  else {
+    navbar.classList.remove('navbar-scroll')
+  }
+});
+
+
 $(document).ready(function () {
   $("#right-arrow").click(function () {
     $(".dashbord-1").removeClass("show");
@@ -25,11 +36,11 @@ $(document).ready(function () {
 /////////////////////////////input to get the file input///////////////////////////////////
 
 
-const fileButton = document.getElementById('fileButton');
-const fileInput = document.getElementById('fileInput');
+var Filebutton = document.getElementById('fileButton');
+var fileInput = document.getElementById('fileInput');
 const imagePreviewContainer = document.getElementById('imagePreviewContainer');
 
-fileButton.addEventListener('click', (event) => {
+Filebutton.addEventListener('click', (event) => {
   event.preventDefault();
   fileInput.click();
 });
@@ -64,8 +75,8 @@ fileInput.addEventListener('change', () => {
 ////////////////////////////////share and  like buttons////////////////////////////////
 const liked = document.getElementById('like-icon');
 liked.addEventListener('click', () => {
-  liked.classList.toggle('fa-heart');
-  liked.classList.toggle('fa-heart-crack');
+  liked.classList.toggle('text-primary');
+  liked.classList.toggle('text-success');
 });
 
 
@@ -109,45 +120,44 @@ $(document).ready(function () {
   const uploadButton = document.getElementById('uploadButton');
   const fileContainer = document.getElementById('fileContainer'); // Renamed from fileRow
 
-  // Add event listener to the "Upload Document" button
+
   uploadButton.addEventListener('click', () => {
-    // Create a new input element dynamically each time the button is clicked
+
     const fileInput = document.createElement('input');
     fileInput.type = 'file';
-    fileInput.classList.add('d-none'); // Hide the file input initially
+    fileInput.classList.add('d-none');
 
-    // Append file input to the body to make sure it's part of the document
+
     document.body.appendChild(fileInput);
 
-    // Trigger the file input when the button is clicked
+
     fileInput.click();
 
-    // Handle file selection
+
     fileInput.addEventListener('change', () => {
       if (fileInput.files.length > 0) {
         Array.from(fileInput.files).forEach(file => {
-          // Create a new div to hold the preview (col-3 for each file)
-          const fileDiv = document.createElement('div');
-          fileDiv.classList.add('col-4', 'mb-4'); // Make sure the files are spaced
 
-          // Check if the file is an image
+          const fileDiv = document.createElement('div');
+          fileDiv.classList.add('col-4', 'mb-4');
+
           if (file.type.startsWith('image/')) {
             const reader = new FileReader();
             reader.onload = function (e) {
-              // Create an image element for the preview
+
               const img = document.createElement('img');
               img.src = e.target.result;
               img.classList.add('img-fluid', 'preview-img');
               fileDiv.appendChild(img);
-              fileContainer.appendChild(fileDiv); // Append to fileContainer
+              fileContainer.appendChild(fileDiv);
             };
             reader.readAsDataURL(file);
           } else {
-            // Handle non-image files (e.g., document files)
+
             const p = document.createElement('p');
             p.textContent = file.name;
             fileDiv.appendChild(p);
-            fileContainer.appendChild(fileDiv); // Append to fileContainer
+            fileContainer.appendChild(fileDiv);
           }
         });
       }
@@ -159,8 +169,6 @@ $(document).ready(function () {
 
 const selectAllCheckbox = document.getElementById("select-all");
 const rowCheckboxes = document.querySelectorAll(".row-checkbox");
-
-// Event listener for thead checkbox
 selectAllCheckbox.addEventListener("change", () => {
   const isChecked = selectAllCheckbox.checked;
   rowCheckboxes.forEach((checkbox) => {
@@ -168,6 +176,15 @@ selectAllCheckbox.addEventListener("change", () => {
   });
 });
 
-// -------------------------------user profile checkbox--------------------------------
+// -------------------------------Input type number validation--------------------------------
 
 
+document.getElementById('cNumber').addEventListener('input', function (e) {
+  const maxLength = 16; 
+  let value = e.target.value.replace(/\D/g, ''); 
+  if (value.length > maxLength) {
+    value = value.slice(0, maxLength);  
+  }
+  e.target.value = value;
+});
+// -------------------------------Navbar scroll up --------------------------------

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
 
     margin: 0;
@@ -39,6 +40,7 @@ h1, h2, h3, h4, h5, p {
     --global-light-gray: #EDEEF0;
     --global-white: #FFFFFF;
     --global-error: #C03744;
+    --global-warning:#C62828;
 
 }
 
@@ -51,6 +53,7 @@ h1, h2, h3, h4, h5, p {
 .global-light-gray-bg { background-color: var(--global-light-gray)}
 .global-bg-white { background-color: var(--global-white)}
 .global-error {color: var(--global-error)}
+.global-warning{color: var(--global-warning);}
 
 .h_100vh{height: 100vh;}
 .font_12{font-size: 12px;}
