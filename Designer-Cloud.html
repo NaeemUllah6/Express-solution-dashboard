@@ -348,17 +348,17 @@
                                     <!-- <a href="#" class="text-decoration-none">
                                             <img width="30" height="30" src="assets/images/icons/back-btn.png" alt="back">
                                         </a> -->
-                                    <h2 class="header-title text-dark">Desinger Cloud</h2>
+                                    <h2 class="header-title text-dark">Designer Cloud</h2>
                                     <form action="">
                                         <div class="position-relative">
-                                            <input class="header-input form-control bg-transparent" type="text"
+                                            <input class="header-input form-control bg-transparent pe-5" type="text"
                                                 placeholder="Search" />
-                                            <div class="position-absolute" style="top: 5px; left: 16px;">
+                                            <div class="position-absolute" style="top: 9px; left: 16px;">
                                                 <img class="h-100 w-100"
                                                     src="assets/images/employer-ease-pics/magnifying-glass.svg"
                                                     alt="magnifying-glass">
                                             </div>
-                                            <div class="position-absolute" style="top: 5px; right: 16px;">
+                                            <div class="position-absolute" style="top: 9px; right: 16px;">
                                                 <a href="#"> <img class="h-100 w-100"
                                                         src="assets/images/employer-ease-pics/filter-icon.svg"
                                                         alt="magnifying-glass"></a>
@@ -369,12 +369,13 @@
                             </div>
                         </div>
 
-                        <div class="d-flex align-items-center gap-1">
+                        <!-- --------------------------------content show on tab and hide on mobile-------------------------------- -->
+                        <div class="d-flex align-items-center gap-1 d-none d-md-block">
                             <div class="d-flex align-items-center" style="gap: 16px">
                                 <div class="dropdown">
                                     <button class="d-block border-0 bg-transparent" data-bs-toggle="dropdown"
                                         aria-expanded="false" type="button">
-                                        <img src="assets/images/employer-ease-pics/calendar.svg" alt="image" />
+                                        <img src="assets/images/employer-ease-pics/calendar.svg" alt="" />
                                         <span class="dot active"></span>
                                     </button>
                                     <!-- <ul class="dropdown-menu">
@@ -391,7 +392,7 @@
                                 <div class="dropdown">
                                     <button class="d-block border-0 bg-transparent" data-bs-toggle="dropdown"
                                         aria-expanded="false" type="button">
-                                        <img src="assets/images/employer-ease-pics/cart.svg" alt="image" />
+                                        <img src="assets/images/employer-ease-pics/cart.svg" alt="" />
                                         <span class="dot active"></span>
                                     </button>
                                     <!-- <ul class="dropdown-menu">
@@ -410,7 +411,7 @@
                                         data-bs-toggle="dropdown" aria-expanded="false" type="button">
                                         <span class=""><img class="me-2"
                                                 src="assets/images/employer-ease-pics/language-switch.svg"
-                                                alt="image" />Eng<sub> (US)</sub></span>
+                                                alt="" />Eng<sub> (US)</sub></span>
                                     </button>
                                     <ul class="dropdown-menu ">
                                         <li>
@@ -478,6 +479,95 @@
                                     </svg> -->
                             </div>
                         </div>
+                        <!-- -------------------------------------================Off convas for mobile small screen===============------------------------------------ -->
+                        <div class="d-block d-md-none">
+                            <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRightUnique" aria-controls="offcanvasRightUnique">
+                                <img src="assets/images/employer-ease-pics/user-profile.svg" alt="">
+                            </button>
+                        
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightUnique" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="">
+                                        <div class="w-100" style="gap: 16px">
+                                            <div class="dropdown">
+                                                <button class="d-flex align-items-center border-0 bg-transparent" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" type="button" style="gap: 8px">
+                                                    <div
+                                                        class="icon-placeholder rounded-circle d-flex align-items-center justify-content-center">
+                                                        <img src="assets/images/employer-ease-pics/header-profile.svg" alt="">
+                                                    </div>
+                                                    <i class="fa fa-chevron-down text-dark" style="font-size: 14px;"></i>
+                                                </button>
+                                                <ul class="dropdown-menu language-dropdown">
+                                                    <li>
+                                                        <a class="dropdown-item" href="User-profile.html">
+                                                            <!-- SVG content -->
+                                                            Account Settings
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="login.html">
+                                                            <!-- SVG content -->
+                                                            Sign out
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                        
+                                            <hr>
+                        
+                                            <div class="dropdown">
+                                                <button class="d-block border-0 bg-transparent dropdown-toggle" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" type="button">
+                                                    <span class="">
+                                                        <img class="me-2"
+                                                            src="assets/images/employer-ease-pics/language-switch.svg" alt="" />Eng<sub>
+                                                            (US)</sub>
+                                                    </span>
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Urdu</a></li>
+                                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column gap-3 mt-3">
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <div class="dropdown">
+                                                <button class="d-block border-0 bg-transparent" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" type="button">
+                                                    <img class="mt-2" src="assets/images/employer-ease-pics/cart.svg" alt="" />
+                                                    <span class="dot active"></span>
+                                                </button>
+                                            </div>
+                                            <label class="mt-2 fs_14 fw_500 tertiary-black j_family" for="">Cart</label>
+                                        </div>
+                        
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="dropdown ms-1">
+                                                <button class="d-block border-0 bg-transparent" data-bs-toggle="dropdown"
+                                                    aria-expanded="false" type="button">
+                                                    <img src="assets/images/employer-ease-pics/calendar.svg" alt="" />
+                                                    <span class="dot active"></span>
+                                                </button>
+                                            </div>
+                                            <label class="fs_14 fw_500 tertiary-black j_family" for="Cart">Calendar</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- -------------------------------------================Off convas for mobile small screen===============------------------------------------ -->
+
+
+
+
                     </div>
                 </div>
                 <!-- Content Section -->
@@ -512,7 +602,7 @@
                                             <div class="row g-3 mt-2">
                                                 <div class="col-12 col-md-6 col-lg-4">
                                                     <div class="compliance-card p-4 border rounded">
-                                                        <img src="assets/images/employer-ease-pics/stripe.svg"
+                                                        <img src="assets/images/employer-ease-pics/Figma.svg"
                                                             alt="northwest-card">
                                                         <h4 class="fs_18 fw_600 lh_28 j_family pt-3">Figma
                                                         </h4>
@@ -538,7 +628,7 @@
 
                                                 <div class="col-12 col-md-6 col-lg-4">
                                                     <div class="compliance-card p-4 border rounded">
-                                                        <img src="assets/images/employer-ease-pics/square.svg"
+                                                        <img src="assets/images/employer-ease-pics/Canvas.svg"
                                                             alt="northwest-card">
                                                         <h4 class="fs_18 fw_600 lh_28 j_family pt-3">Canva</h4>
                                                         <p class="fs_16 fw_400 lh_26 j_family tertiary-black pt-2">Lorem
@@ -563,7 +653,7 @@
 
                                                 <div class="col-12 col-md-6 col-lg-4">
                                                     <div class="compliance-card p-4 border rounded">
-                                                        <img src="assets/images/employer-ease-pics/clover.svg"
+                                                        <img src="assets/images/employer-ease-pics/Adobe.svg"
                                                             alt="northwest-card">
                                                         <h4 class="fs_18 fw_600 lh_28 j_family pt-3">Adobe</h4>
                                                         <p class="fs_16 fw_400 lh_26 j_family tertiary-black pt-2">Lorem
@@ -602,12 +692,12 @@
                                                 class="compliance-card1 border-r-12 p-3 border  h-100 d-flex flex-column justify-content-between mt-3">
                                                 <div>
                                                     <div class="d-flex align-items-center justify-content-between">
-                                                        <img src="assets/images/employer-ease-pics/Novo.svg"
+                                                        <img src="assets/images/employer-ease-pics/Vista.svg"
                                                             alt="northwest-card">
                                                         <button class="whole_button light-main-bg main_color px-3">Sign
                                                             up</button>
                                                     </div>
-                                                    <h3 class="fs_20 fw_600 lh_28 j_family pt-3">NOVO</h3>
+                                                    <h3 class="fs_20 fw_600 lh_28 j_family pt-3">Vista Print</h3>
                                                     <p class="fs_16 fw_400 lh_26 j_family tertiary-black pt-2">Sign up
                                                         for a No Fee
                                                         - No Minimum Balance Checking Account powered by Novo"

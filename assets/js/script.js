@@ -1,3 +1,7 @@
+// ----------------------===============Jquery Form Validation===============-----------------------
+
+// ----------------------===============Jquery Form Validation===============-----------------------
+
 const navbar = document.getElementById('dashboard-2')
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -38,6 +42,7 @@ $(document).ready(function () {
 
 var Filebutton = document.getElementById('fileButton');
 var fileInput = document.getElementById('fileInput');
+
 const imagePreviewContainer = document.getElementById('imagePreviewContainer');
 
 Filebutton.addEventListener('click', (event) => {
