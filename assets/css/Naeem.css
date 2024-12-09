@@ -1180,4 +1180,7 @@ body {
     .dashbord-2 .naivgation-header{
         height: 60px;
     }
+    .header-title{
+        display: none;
+    }
 }
